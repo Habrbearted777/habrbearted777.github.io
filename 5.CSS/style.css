@@ -1,0 +1,19 @@
+ol li:nth-child(1):not([title]) {
+    color:red;
+}
+
+.test+li:hover {
+    color:blue;
+}
+
+li li:hover:not(.nocolor) {
+    color:purple;
+}
+
+
+li > ul > li * {
+    color:green;
+}
+
+
+

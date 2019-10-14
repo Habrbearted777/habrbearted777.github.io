@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" >
+   
+</head>
+
+<body>
+
+    
+    <ul id="main">
+        <li>item1</li>
+        <li class="test">item2</li>
+        <li>item3</li>
+        <li>item4</li>
+        <li>item5
+            <ol>
+                <li title="first">subitem1</li>
+                <li>subitem2</li>
+                <li>subitem3</li>
+                <li>subitem4</li>
+            </ol>
+        </li>
+        <li>item6
+            <ol>
+                <li>subitem1</li>
+                <li>subitem2</li>
+                <li>subitem3</li>
+                <li class="nocolor">subitem4</li>
+                <li>subitem5</li>
+                <li>subitem6</li>
+                <li class="nocolor">subitem7</li>
+                <li>subitem8</li>
+                <li>subitem9</li>
+            </ol>
+        </li>
+        <li>item7</li>
+        <li class="test">item8
+            <ol>
+                <li>subitem1</li>
+                <li>subitem2</li>
+                <li>subitem3</li>
+                <li>subitem4</li>
+            </ol>
+        </li>
+        <li>item9
+            <ul>
+                <li>subitem1</li>
+                <li>subitem2 <b>hello bold</b> </li>
+                <li>subitem3 <span>Hello</span></li>
+                <li>subitem4 <em>Hello cursive</em></li>
+                <li>subitem5</li>
+            </ul>
+        </li>
+        <li>item10</li>
+    </ul>
+    
+
+<!--
+    1. первый ребенок каждого ol должен быть красным (кроме того ребенка, который обладает аттрибутом title)
+    2. непосредственные соседи класса test при наведении должны загораться синим цветом
+    3. все li которые находятся после других li должны при наведении загораться фиолетовым, кроме тех li которые обладают классом nocolor
+    4. все теги которые находятся в li который в ul который в li должны быть зелеными
+-->
+
+</body>
+
+</html>
